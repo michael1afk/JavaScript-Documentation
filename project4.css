@@ -1,0 +1,144 @@
+/* General Styles */
+    body * {
+        box-sizing: border-box;
+        margin: 0;
+        font-family:  Roboto, Arial, Helvetica, sans-serif;
+    }
+    * {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        padding-left: 335px;
+    }
+    @media screen and (max-width: 390px) {
+        body {
+            padding-left: 0;
+        }
+    }
+/*-------------*/
+
+/* NavBar styles and that */
+    #navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+
+        width: 335px;
+        border-right: 4px solid rgb(201, 201, 201);
+    }
+
+    #navbar header {
+        font-size: 32px;
+        text-align: center;
+
+        margin-right: -2px;
+        border-bottom: 2px solid black;
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #navbar a.nav-link {
+        display: block;
+
+        text-decoration: none;
+        color: rgb(66, 66, 66);
+        font-size: 18px;
+
+        margin-right: -2px;
+        border-bottom: 2px solid black;
+
+        padding-left: 34px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    @media screen and (max-width: 390px){
+        #navbar {
+            display: none;
+        }   
+    }
+/*----------------------*/
+
+/* Main content Styles *//* You have no friends*/
+    #main-doc {
+        padding-left: 40px;
+        padding-top: 30px;
+        font-weight: 100;
+    }
+
+    #main-doc  div{
+        font-size: 17px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+
+    .header {
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+
+    .main-section {
+        margin-bottom: 20px;
+    }
+
+    .main-section div p {
+        font-size: 17px;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+
+    .main-section div ul {
+        padding-left: 50px;
+    } 
+
+    .main-section div ul li {
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+
+    .main-section div  code {
+        color: #4d4e53;
+        background-color: rgb(235, 235, 235);
+        display: block;
+
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+
+        margin-bottom: 15px;
+        margin-left: 20px;
+
+        line-height: 28px;
+
+        font-size: 14px;
+        font-family: monospace;
+        font-weight: 300;
+    }
+
+    @media screen and (max-width: 390px) {
+        .main-section div p {
+            font-size: 13px;
+            font-weight: 400;
+        }
+
+        .main-section div  code {
+            font-size: 11px;
+        }
+
+        .main-section div ul li {
+            font-size: 13px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            line-height: 25px;
+        }
+        
+    }
+/*-------------*/ 
